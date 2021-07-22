@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,11 @@
 </head>
 <body>
     <h1>Calculator</h1>
+<<<<<<< HEAD
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur, aperiam necessitatibus porro iusto consequuntur laudantium eos enim voluptas illum.</p>
+=======
+    
+>>>>>>> 50736a99e847f955d22651c908beed19f1f33e89
 </body>
-</html>
+</html> -->
