@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1>Calculator</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur, aperiam necessitatibus porro iusto consequuntur laudantium eos enim voluptas illum.</p>
 </body>
 </html>
