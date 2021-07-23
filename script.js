@@ -29,5 +29,6 @@
          }
          function clearall(){
           document.getElementById("outputfield").value=" ";
+          // document.getElementById("outputfield").addAttribute("placeholder", "0");
          }
  
