@@ -10,6 +10,7 @@
     width: 50vw;
     height: 45vw;
     border-spacing: 15px;
+    border-radius: 10px;
 }
 #outputfield{
     width: 45vw;
@@ -19,17 +20,13 @@
     font-size: 40px;
 }
 .apnatext {
-  
- 
-  
- 
-
 align-items: center;
 border-radius: 20%;
 height: 4vw;
 width: 50px;
 
 }
+
 .apnatext input{
     /* background-color: darkgray; */
     border: none;
