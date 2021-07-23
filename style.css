@@ -5,15 +5,15 @@
     background-color:black;
     /* text-align: center; */
     position: absolute;
-    left: 20vw;
-    top: 5vw;
-    width: 35vw;
-    height: 38vw;
+    left: 25vw;
+    top: 1vw;
+    width: 50vw;
+    height: 45vw;
     border-spacing: 15px;
 }
 #outputfield{
-    width: 30vw;
-    height: 5vw;
+    width: 45vw;
+    height: 7vw;
     background-color: 	hsl(135, 100%, 75%);
     border: none;
     font-size: 40px;
@@ -21,32 +21,33 @@
 .apnatext {
   
  
-  font-size: 30px;
+  
  
 
 align-items: center;
 border-radius: 20%;
-height: 3.5vw;
+height: 4vw;
+width: 50px;
 
 }
 .apnatext input{
     /* background-color: darkgray; */
     border: none;
-   
+    font-size: 25px;
     font-weight: bold;
-    height: 50px;
-    width: 100%;
+    /* height: 50px; */
+    width: 90%;
     height: 100%;
     border-radius: 20%;
 }
-.apnatext:hover{
+.apnatext input:hover{
    
     background-color: wheat;
 
 }
 
  #equal{
-     height: 119px;
+     height: 125px;
  }
  
 
