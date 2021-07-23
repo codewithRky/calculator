@@ -50,4 +50,10 @@ height: 37px;
    
      border-spacing: 10px 30px ;
  }
-
+@media(max-width:400px){
+    .meracalci{
+        top:100px;
+        left: 20px;
+        
+    }
+}
