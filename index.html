@@ -11,39 +11,46 @@
    
 </head>
 <body>
-    <div class="meracalci">
-    <table>
-        <input type="text" id="outputfield">
-        <form>
-             <!-- <p id="outputfield"></p> -->
-        <tr>
-            <td><input type="button" class="apnatext" id="seven" value=7 onclick="show7()"></td>
-            <td><input type="button" class="apnatext" id="eight" onclick="show8()" value=8></td>
-            <td><input type="button" class="apnatext" id="nine"  onclick= "show9()"  value=9></td>
-            <td><input type="button" class="apnatext" id="div"  onclick= "showdiv()" value="/"></td>
+ 
+    <table class="meracalci">
+       <tr><td colspan="4"><input type="text" id="outputfield" > </td> </tr>  
+      
+      
+        <tr id="secondrow">
+            <td class="apnatext" ><input type="button" id="clear"  onclick="clearall()" value='C'></td>
+            <td class="apnatext"><input type="button"  id="backspace" onclick="backspace()" value='B'></td>
+          
+            <td class="apnatext"><input type="button"  id="div"  onclick= "show('/')" value="/"></td>
+            <td class="apnatext"><input type="button"  id="cross" onclick= "show('*')"  value="x"></td>
         </tr>
         <tr>
-            <td><input type="button" class="apnatext" id="four" onclick= "show4()"  value=4></td>
-            <td><input type="button" class="apnatext" id="five" onclick= "show5()"  value=5></td>
-            <td><input type="button" class="apnatext" id="six" onclick= "show6()"  value=6></td>
-            <td><input type="button" class="apnatext" id="cross" onclick= "showcross()"  value="x"></td>
+            <td class="apnatext"><input type="button"  id="seven" value=7 onclick="show(7)"></td>
+            <td class="apnatext"><input type="button"  id="eight" onclick="show(8)" value=8></td>
+            <td class="apnatext"><input type="button"  id="nine"  onclick= "show(9)"  value=9></td>
+            <td class="apnatext"><input type="button"  id="minus"  onclick= "show('-')" value="-"></td>
+            <!-- <td class="apnatext"><input type="button"  id="div"  onclick= "show('/')" value="/"></td> -->
         </tr>
         <tr>
-            <td><input type="button" class="apnatext" id="one"  onclick= "show1()" value=1></td>
-            <td><input type="button" class="apnatext" id="two"  onclick= "show2()" value=2></td>
-            <td><input type="button" class="apnatext" id="three" onclick= "show3()"  value=3></td>
-            <td><input type="button" class="apnatext" id="minus"  onclick= "showminus()" value="-"></td>
+            <td class="apnatext"><input type="button"  id="four" onclick= "show(4)"  value=4></td>
+            <td class="apnatext"><input type="button"  id="five" onclick= "show(5)"  value=5></td>
+            <td class="apnatext"><input type="button"  id="six" onclick= "show(6)"  value=6></td>
+            <td class="apnatext"><input type="button"  id="plus"  onclick= "show('+')" value="+"></td>
         </tr>
         <tr>
-            <td><input type="button" class="apnatext" id="zero"  onclick= "show0()" value=0></td>
-            <td><input type="button" class="apnatext" id="decimal"  onclick= "showdecimal()"  value="."></td>
-            <td><input type="button" class="apnatext" id="plus"  onclick= "showplus()" value="+"></td>
-            <td><input type="button" class="apnatext" id="equalto" onclick= "showequalto()"  value="="></td>
+            <td class="apnatext"><input type="button"  id="one"  onclick= "show(1)" value=1></td>
+            <td class="apnatext"><input type="button"  id="two"  onclick= "show(2)" value=2></td>
+            <td class="apnatext"><input type="button"  id="three" onclick= "show(3)"  value=3></td>
+            <td class="apnatext" rowspan="2"><input  type="button"  id="equal"  onclick= "equal()" value="="></td>
         </tr>
-    </form>
+        <tr>
+            <td colspan="2" class="apnatext"><input type="button"  id="zero"  onclick= "show(0)" value=0></td>
+            <td class="apnatext"><input type="button"  id="decimal"  onclick= "show('.')"  value="."></td>
+           
+        </tr>
+  
   
 
     </table>
-    </div>
+ 
 </body>
 </html>
